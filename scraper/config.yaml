@@ -1,0 +1,58 @@
+# RepairAi Scraper Configuration
+
+# API Configuration
+api:
+  # OpenRouter API (for general AI processing)
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"
+    # Model options: google/gemini-pro, anthropic/claude-3-opus, etc.
+    default_model: "google/gemini-pro"
+    
+  # Google Gemini API (for image/PDF analysis)
+  gemini:
+    base_url: "https://generativelanguage.googleapis.com/v1beta"
+    # Model: gemini-pro-vision for images, gemini-pro for text
+    vision_model: "gemini-pro-vision"
+    text_model: "gemini-pro"
+
+# Scraping Configuration
+scraper:
+  # Timeout for page loads (ms)
+  page_timeout: 30000
+  # Delay between requests (ms)
+  request_delay: 2000
+  # Maximum retries for failed requests
+  max_retries: 3
+  # User agent
+  user_agent: "RepairAi-Scraper/1.0 (https://repairai.app)"
+  # Headless mode for Puppeteer
+  headless: true
+
+# Directory Configuration
+directories:
+  # Path to RepairAi-files repository
+  repo_root: ".."
+  # Staging area for new data
+  staging: "./data/staging"
+  # Downloaded images folder
+  images: "./data/images"
+  # Raw scraped data
+  raw_data: "./data/raw"
+  # Sources list file
+  sources_file: "./config/sources.txt"
+
+# Validation Configuration
+validation:
+  # Minimum score for auto-approval
+  min_auto_approve_score: 75
+  # Score range for manual review
+  review_score_range: [50, 75]
+  # Auto-reject below this score
+  auto_reject_score: 50
+
+# Output Configuration
+output:
+  # Create backup before overwriting
+  create_backup: true
+  # Backup directory
+  backup_dir: "./data/backups"
