@@ -65,6 +65,7 @@
 
 ### Related Schematics
 
+- [SM-A310F_Schematic_Diagram.pdf](SM-A310F_Schematic_Diagram.pdf) - Original schematic diagram
 - [screws.md](screws.md) - Screw locations and types
 - [cover.md](cover.md) - Cover removal guide
 - [board.md](board.md) - Board layout and components

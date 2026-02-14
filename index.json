@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-02-14T15:00:00.000Z",
+  "schematics": [
+    {
+      "path": "samsung/a310f/screws.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 (2016) SM-A310F Screw locations and types guide",
+      "description": "Complete screw identification guide with sizes and locations"
+    },
+    {
+      "path": "samsung/a310f/cover.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Back cover removal guide",
+      "description": "Battery cover removal instructions and components"
+    },
+    {
+      "path": "samsung/a310f/board.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Main board PCB layout and components",
+      "description": "PCB layout with connectors, test points and IC locations"
+    },
+    {
+      "path": "samsung/a310f/parts.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Spare parts list with part numbers",
+      "description": "Replaceable components and tools required"
+    },
+    {
+      "path": "samsung/a310f/steps.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Repair steps overview",
+      "description": "Index to all 12 repair steps"
+    },
+    {
+      "path": "samsung/a310f/solution.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Repair solution documentation",
+      "description": "Solution template for documenting repairs"
+    },
+    {
+      "path": "samsung/a310f/steps/step1.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 1: Preparation",
+      "description": "Gather tools and prepare workspace"
+    },
+    {
+      "path": "samsung/a310f/steps/step2.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 2: Power Off",
+      "description": "Safely power down the device"
+    },
+    {
+      "path": "samsung/a310f/steps/step3.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 3: Remove Back Cover",
+      "description": "Remove battery cover and expose internals"
+    },
+    {
+      "path": "samsung/a310f/steps/step4.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 4: Remove Screws",
+      "description": "Remove all securing screws"
+    },
+    {
+      "path": "samsung/a310f/steps/step5.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 5: Disconnect Battery",
+      "description": "Disconnect battery to prevent short circuits"
+    },
+    {
+      "path": "samsung/a310f/steps/step6.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 6: Remove Shield",
+      "description": "Remove main board metal shield"
+    },
+    {
+      "path": "samsung/a310f/steps/step7.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 7: Disconnect Display",
+      "description": "Disconnect display and touch connectors"
+    },
+    {
+      "path": "samsung/a310f/steps/step8.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 8: Remove Display",
+      "description": "Carefully remove display assembly"
+    },
+    {
+      "path": "samsung/a310f/steps/step9.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 9: Install Display",
+      "description": "Install new display assembly"
+    },
+    {
+      "path": "samsung/a310f/steps/step10.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 10: Reconnect",
+      "description": "Reconnect all cables and connectors"
+    },
+    {
+      "path": "samsung/a310f/steps/step11.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 11: Test",
+      "description": "Test device functionality"
+    },
+    {
+      "path": "samsung/a310f/steps/step12.md",
+      "type": "markdown",
+      "index": "Samsung Galaxy A3 SM-A310F Step 12: Reassemble",
+      "description": "Put device back together"
+    },
+    {
+      "path": "samsung/a310f/SM-A310F_Schematic_Diagram.pdf",
+      "type": "pdf",
+      "index": "Samsung Galaxy A3 SM-A310F Original schematic diagram PDF",
+      "description": "Factory schematic diagram for Samsung Galaxy A3 2016"
+    }
+  ],
+  "solutions": [],
+  "manufacturers": [
+    {
+      "name": "Samsung",
+      "models": ["a310f"]
+    }
+  ]
+}

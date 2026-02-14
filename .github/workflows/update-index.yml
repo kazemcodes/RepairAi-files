@@ -1,0 +1,169 @@
+name: Update Index
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install PyYAML
+      
+      - name: Generate index.json
+        id: generate
+        run: |
+          python << 'EOF'
+          import os
+          import json
+          from pathlib import Path
+          from datetime import datetime
+
+          def get_file_type(path):
+              """Determine file type based on extension"""
+              ext = Path(path).suffix.lower()
+              if ext == '.md':
+                  return 'markdown'
+              elif ext == '.pdf':
+                  return 'pdf'
+              elif ext in ['.png', '.jpg', '.jpeg', '.gif']:
+                  return 'image'
+              elif ext in ['.json']:
+                  return 'json'
+              return 'unknown'
+
+          def extract_description_from_md(filepath):
+              """Extract description from markdown file"""
+              try:
+                  with open(filepath, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                      # Get first line after potential title
+                      lines = content.strip().split('\n')
+                      for line in lines:
+                          line = line.strip()
+                          if line and not line.startswith('#'):
+                              return line[:100]  # First non-title line, max 100 chars
+                      return lines[0].replace('#', '').strip() if lines else ''
+              except:
+                  return ''
+
+          def get_index_from_path(path):
+              """Generate index string from file path"""
+              # Convert path to readable format
+              # e.g., samsung/a310f/screws.md -> "Samsung A310F Screws"
+              parts = path.replace('.md', '').split('/')
+              if len(parts) >= 2:
+                  manufacturer = parts[0].title()
+                  model = parts[1].upper()
+                  # Check if it's a step file
+                  if 'step' in parts[-1]:
+                      step_num = parts[-1].replace('step', '').replace('.md', '')
+                      return f"{manufacturer} {model} Step {step_num}"
+                  return f"{manufacturer} {model} {parts[-1].replace('.md', '').title()}"
+              return path
+
+          def find_manufacturers(root_dir):
+              """Find all manufacturers in the directory"""
+              manufacturers = []
+              for item in os.listdir(root_dir):
+                  item_path = os.path.join(root_dir, item)
+                  if os.path.isdir(item_path) and not item.startswith('.'):
+                      models = []
+                      for model in os.listdir(item_path):
+                          model_path = os.path.join(item_path, model)
+                          if os.path.isdir(model_path):
+                              models.append(model)
+                      if models:
+                          manufacturers.append({'name': item, 'models': models})
+              return manufacturers
+
+          # Find all markdown and PDF files
+          schematics = []
+          solutions = []
+          root_dir = '.'
+
+          for root, dirs, files in os.walk(root_dir):
+              # Skip hidden directories and .github
+              dirs[:] = [d for d in dirs if not d.startswith('.')]
+              
+              for file in files:
+                  filepath = os.path.join(root, file)
+                  relative_path = os.path.relpath(filepath, root_dir)
+                  
+                  # Skip index.json and hidden files
+                  if file.startswith('.') or file == 'index.json':
+                      continue
+                  
+                  file_type = get_file_type(file)
+                  
+                  if file_type in ['markdown', 'pdf', 'image']:
+                      # Determine if it's a solution or schematic based on path
+                      if 'solution' in relative_path.lower():
+                          solutions.append({
+                              'path': relative_path,
+                              'type': file_type,
+                              'index': get_index_from_path(relative_path),
+                              'description': extract_description_from_md(filepath) if file_type == 'markdown' else f'{file_type.upper()} file'
+                          })
+                      else:
+                          schematics.append({
+                              'path': relative_path,
+                              'type': file_type,
+                              'index': get_index_from_path(relative_path),
+                              'description': extract_description_from_md(filepath) if file_type == 'markdown' else f'{file_type.upper()} file'
+                          })
+
+          # Sort by path
+          schematics.sort(key=lambda x: x['path'])
+          solutions.sort(key=lambda x: x['path'])
+
+          # Find manufacturers
+          manufacturers = find_manufacturers(root_dir)
+
+          # Create index.json
+          index = {
+              'version': '1.0.0',
+              'updated_at': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S.000Z'),
+              'schematics': schematics,
+              'solutions': solutions,
+              'manufacturers': manufacturers
+          }
+
+          # Write index.json
+          with open('index.json', 'w', encoding='utf-8') as f:
+              json.dump(index, f, indent=2, ensure_ascii=False)
+
+          print(f"Generated index.json with {len(schematics)} schematics and {len(solutions)} solutions")
+          print(f"Found {len(manufacturers)} manufacturers")
+          EOF
+      
+      - name: Commit and push if changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add index.json
+            git commit -m "Auto-update index.json"
+            git push
+            echo "index.json updated and committed"
+          else
+            echo "No changes to index.json"
+          fi
