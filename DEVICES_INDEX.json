@@ -1,0 +1,770 @@
+{
+  "generated": "2026-02-15T06:13:47.265Z",
+  "total_devices": 120,
+  "devices_with_data": 0,
+  "devices_awaiting_data": 120,
+  "manufacturers": {
+    "apple": {
+      "total": 30,
+      "with_data": 0,
+      "awaiting_data": 30
+    },
+    "samsung": {
+      "total": 26,
+      "with_data": 0,
+      "awaiting_data": 26
+    },
+    "xiaomi": {
+      "total": 17,
+      "with_data": 0,
+      "awaiting_data": 17
+    },
+    "huawei": {
+      "total": 10,
+      "with_data": 0,
+      "awaiting_data": 10
+    },
+    "oppo": {
+      "total": 10,
+      "with_data": 0,
+      "awaiting_data": 10
+    },
+    "vivo": {
+      "total": 10,
+      "with_data": 0,
+      "awaiting_data": 10
+    },
+    "oneplus": {
+      "total": 9,
+      "with_data": 0,
+      "awaiting_data": 9
+    },
+    "google": {
+      "total": 8,
+      "with_data": 0,
+      "awaiting_data": 8
+    }
+  },
+  "devices": [
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 11",
+      "status": "awaiting",
+      "path": "apple/iphone-11"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 11 Pro",
+      "status": "awaiting",
+      "path": "apple/iphone-11-pro"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 11 Pro Max",
+      "status": "awaiting",
+      "path": "apple/iphone-11-pro-max"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 12",
+      "status": "awaiting",
+      "path": "apple/iphone-12"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 12 Pro",
+      "status": "awaiting",
+      "path": "apple/iphone-12-pro"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 12 Pro Max",
+      "status": "awaiting",
+      "path": "apple/iphone-12-pro-max"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 12 Mini",
+      "status": "awaiting",
+      "path": "apple/iphone-12-mini"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 13",
+      "status": "awaiting",
+      "path": "apple/iphone-13"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 13 Pro",
+      "status": "awaiting",
+      "path": "apple/iphone-13-pro"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 13 Pro Max",
+      "status": "awaiting",
+      "path": "apple/iphone-13-pro-max"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 13 Mini",
+      "status": "awaiting",
+      "path": "apple/iphone-13-mini"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 14",
+      "status": "awaiting",
+      "path": "apple/iphone-14"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 14 Pro",
+      "status": "awaiting",
+      "path": "apple/iphone-14-pro"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 14 Pro Max",
+      "status": "awaiting",
+      "path": "apple/iphone-14-pro-max"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 14 Plus",
+      "status": "awaiting",
+      "path": "apple/iphone-14-plus"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 15",
+      "status": "awaiting",
+      "path": "apple/iphone-15"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 15 Pro",
+      "status": "awaiting",
+      "path": "apple/iphone-15-pro"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 15 Pro Max",
+      "status": "awaiting",
+      "path": "apple/iphone-15-pro-max"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 15 Plus",
+      "status": "awaiting",
+      "path": "apple/iphone-15-plus"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone X",
+      "status": "awaiting",
+      "path": "apple/iphone-x"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone XR",
+      "status": "awaiting",
+      "path": "apple/iphone-xr"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone XS",
+      "status": "awaiting",
+      "path": "apple/iphone-xs"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone XS Max",
+      "status": "awaiting",
+      "path": "apple/iphone-xs-max"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 8",
+      "status": "awaiting",
+      "path": "apple/iphone-8"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 8 Plus",
+      "status": "awaiting",
+      "path": "apple/iphone-8-plus"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 7",
+      "status": "awaiting",
+      "path": "apple/iphone-7"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "iPhone 7 Plus",
+      "status": "awaiting",
+      "path": "apple/iphone-7-plus"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "MacBook Pro 13 2020",
+      "status": "awaiting",
+      "path": "apple/macbook-pro-13-2020"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "MacBook Pro 16 2019",
+      "status": "awaiting",
+      "path": "apple/macbook-pro-16-2019"
+    },
+    {
+      "manufacturer": "apple",
+      "model": "MacBook Air 2020",
+      "status": "awaiting",
+      "path": "apple/macbook-air-2020"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S23",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s23"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S23 Plus",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s23-plus"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S23 Ultra",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s23-ultra"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S22",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s22"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S22 Plus",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s22-plus"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S22 Ultra",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s22-ultra"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S21",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s21"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S21 Plus",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s21-plus"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S21 Ultra",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s21-ultra"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S20",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s20"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S20 Plus",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s20-plus"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy S20 Ultra",
+      "status": "awaiting",
+      "path": "samsung/galaxy-s20-ultra"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy Note 20",
+      "status": "awaiting",
+      "path": "samsung/galaxy-note-20"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy Note 20 Ultra",
+      "status": "awaiting",
+      "path": "samsung/galaxy-note-20-ultra"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A54",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a54"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A53",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a53"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A52",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a52"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A51",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a51"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A34",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a34"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A33",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a33"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A32",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a32"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A31",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a31"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A14",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a14"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A13",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a13"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A12",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a12"
+    },
+    {
+      "manufacturer": "samsung",
+      "model": "Galaxy A10",
+      "status": "awaiting",
+      "path": "samsung/galaxy-a10"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Redmi Note 13",
+      "status": "awaiting",
+      "path": "xiaomi/redmi-note-13"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Redmi Note 12",
+      "status": "awaiting",
+      "path": "xiaomi/redmi-note-12"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Redmi Note 11",
+      "status": "awaiting",
+      "path": "xiaomi/redmi-note-11"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Redmi Note 10",
+      "status": "awaiting",
+      "path": "xiaomi/redmi-note-10"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Redmi Note 9",
+      "status": "awaiting",
+      "path": "xiaomi/redmi-note-9"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Redmi Note 8",
+      "status": "awaiting",
+      "path": "xiaomi/redmi-note-8"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Mi 11",
+      "status": "awaiting",
+      "path": "xiaomi/mi-11"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Mi 11 Pro",
+      "status": "awaiting",
+      "path": "xiaomi/mi-11-pro"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Mi 11 Ultra",
+      "status": "awaiting",
+      "path": "xiaomi/mi-11-ultra"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Mi 10",
+      "status": "awaiting",
+      "path": "xiaomi/mi-10"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Mi 10 Pro",
+      "status": "awaiting",
+      "path": "xiaomi/mi-10-pro"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Mi 10T",
+      "status": "awaiting",
+      "path": "xiaomi/mi-10t"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Poco X5",
+      "status": "awaiting",
+      "path": "xiaomi/poco-x5"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Poco X4",
+      "status": "awaiting",
+      "path": "xiaomi/poco-x4"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Poco X3",
+      "status": "awaiting",
+      "path": "xiaomi/poco-x3"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Poco F5",
+      "status": "awaiting",
+      "path": "xiaomi/poco-f5"
+    },
+    {
+      "manufacturer": "xiaomi",
+      "model": "Poco F4",
+      "status": "awaiting",
+      "path": "xiaomi/poco-f4"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "P50 Pro",
+      "status": "awaiting",
+      "path": "huawei/p50-pro"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "P40 Pro",
+      "status": "awaiting",
+      "path": "huawei/p40-pro"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "P30 Pro",
+      "status": "awaiting",
+      "path": "huawei/p30-pro"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "P20 Pro",
+      "status": "awaiting",
+      "path": "huawei/p20-pro"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "Mate 50 Pro",
+      "status": "awaiting",
+      "path": "huawei/mate-50-pro"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "Mate 40 Pro",
+      "status": "awaiting",
+      "path": "huawei/mate-40-pro"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "Mate 30 Pro",
+      "status": "awaiting",
+      "path": "huawei/mate-30-pro"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "Nova 11",
+      "status": "awaiting",
+      "path": "huawei/nova-11"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "Nova 10",
+      "status": "awaiting",
+      "path": "huawei/nova-10"
+    },
+    {
+      "manufacturer": "huawei",
+      "model": "Nova 9",
+      "status": "awaiting",
+      "path": "huawei/nova-9"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "Find X6 Pro",
+      "status": "awaiting",
+      "path": "oppo/find-x6-pro"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "Find X5 Pro",
+      "status": "awaiting",
+      "path": "oppo/find-x5-pro"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "Find X3 Pro",
+      "status": "awaiting",
+      "path": "oppo/find-x3-pro"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "Reno 10",
+      "status": "awaiting",
+      "path": "oppo/reno-10"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "Reno 9",
+      "status": "awaiting",
+      "path": "oppo/reno-9"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "Reno 8",
+      "status": "awaiting",
+      "path": "oppo/reno-8"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "Reno 7",
+      "status": "awaiting",
+      "path": "oppo/reno-7"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "A98",
+      "status": "awaiting",
+      "path": "oppo/a98"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "A78",
+      "status": "awaiting",
+      "path": "oppo/a78"
+    },
+    {
+      "manufacturer": "oppo",
+      "model": "A58",
+      "status": "awaiting",
+      "path": "oppo/a58"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "X90 Pro",
+      "status": "awaiting",
+      "path": "vivo/x90-pro"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "X80 Pro",
+      "status": "awaiting",
+      "path": "vivo/x80-pro"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "X70 Pro",
+      "status": "awaiting",
+      "path": "vivo/x70-pro"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "V29",
+      "status": "awaiting",
+      "path": "vivo/v29"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "V27",
+      "status": "awaiting",
+      "path": "vivo/v27"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "V25",
+      "status": "awaiting",
+      "path": "vivo/v25"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "V23",
+      "status": "awaiting",
+      "path": "vivo/v23"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "Y36",
+      "status": "awaiting",
+      "path": "vivo/y36"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "Y27",
+      "status": "awaiting",
+      "path": "vivo/y27"
+    },
+    {
+      "manufacturer": "vivo",
+      "model": "Y22",
+      "status": "awaiting",
+      "path": "vivo/y22"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "OnePlus 11",
+      "status": "awaiting",
+      "path": "oneplus/oneplus-11"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "OnePlus 10 Pro",
+      "status": "awaiting",
+      "path": "oneplus/oneplus-10-pro"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "OnePlus 9 Pro",
+      "status": "awaiting",
+      "path": "oneplus/oneplus-9-pro"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "OnePlus 8T",
+      "status": "awaiting",
+      "path": "oneplus/oneplus-8t"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "OnePlus 8 Pro",
+      "status": "awaiting",
+      "path": "oneplus/oneplus-8-pro"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "OnePlus 7T Pro",
+      "status": "awaiting",
+      "path": "oneplus/oneplus-7t-pro"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "Nord 3",
+      "status": "awaiting",
+      "path": "oneplus/nord-3"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "Nord 2T",
+      "status": "awaiting",
+      "path": "oneplus/nord-2t"
+    },
+    {
+      "manufacturer": "oneplus",
+      "model": "Nord CE 3",
+      "status": "awaiting",
+      "path": "oneplus/nord-ce-3"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 8 Pro",
+      "status": "awaiting",
+      "path": "google/pixel-8-pro"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 8",
+      "status": "awaiting",
+      "path": "google/pixel-8"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 7 Pro",
+      "status": "awaiting",
+      "path": "google/pixel-7-pro"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 7",
+      "status": "awaiting",
+      "path": "google/pixel-7"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 6 Pro",
+      "status": "awaiting",
+      "path": "google/pixel-6-pro"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 6",
+      "status": "awaiting",
+      "path": "google/pixel-6"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 5",
+      "status": "awaiting",
+      "path": "google/pixel-5"
+    },
+    {
+      "manufacturer": "google",
+      "model": "Pixel 4a",
+      "status": "awaiting",
+      "path": "google/pixel-4a"
+    }
+  ]
+}

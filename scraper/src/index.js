@@ -35,6 +35,7 @@ import { analyzeImagesCommand } from './commands/analyze-images.js';
 import { updateSourcesCommand } from './commands/update-sources.js';
 import { integrateCommand } from './commands/integrate.js';
 import { indexCommand } from './commands/index.js';
+import { extractModels } from './commands/extract-models.js';
 
 // Interactive prompt helper
 const rl = readline.createInterface({
@@ -67,9 +68,10 @@ function printMenu() {
   console.log('   3. 📝 Add new sources from file');
   console.log('   4. 🔄 Integrate staged data');
   console.log('   5. 📑 Generate repository index');
-  console.log('   6. ⚙️  Configure API keys');
-  console.log('   7. ℹ️  Show current configuration');
-  console.log('   8. 🚪 Exit\n');
+  console.log('   6. 📱 Extract popular device models');
+  console.log('   7. ⚙️  Configure API keys');
+  console.log('   8. ℹ️  Show current configuration');
+  console.log('   9. 🚪 Exit\n');
 }
 
 // Interactive scrape flow
@@ -194,6 +196,35 @@ async function interactiveIndex() {
   await indexCommand(options);
 }
 
+// Interactive extract models
+async function interactiveExtractModels() {
+  console.log('\n📱 Extract Device Models Mode');
+  console.log('─'.repeat(40));
+  
+  console.log('\nThis will create directory structures for 100+ popular device models.');
+  console.log('Each device will get:');
+  console.log('   - Directory structure (manufacturer/model/boardview/)');
+  console.log('   - README.md with device info');
+  console.log('   - SEARCH_GUIDE.md with search resources');
+  console.log('   - Placeholder boardview.json');
+  
+  const manufacturers = await question('\nEnter manufacturers (comma-separated, or press Enter for all): ');
+  const confirm = await question('Continue? [Y/n]: ');
+  
+  if (confirm.toLowerCase() === 'n') {
+    console.log('❌ Cancelled');
+    return;
+  }
+  
+  const options = {};
+  if (manufacturers.trim()) {
+    options.manufacturers = manufacturers.split(',').map(m => m.trim().toLowerCase());
+  }
+  
+  console.log('\n✅ Extracting models...');
+  await extractModels(options);
+}
+
 // Configure API keys
 async function interactiveConfig() {
   console.log('\n⚙️  API Key Configuration');
@@ -260,7 +291,7 @@ async function interactiveMode() {
   
   while (true) {
     printMenu();
-    const choice = await question('Select an action [1-8]: ');
+    const choice = await question('Select an action [1-9]: ');
     
     switch (choice.trim()) {
       case '1':
@@ -279,12 +310,15 @@ async function interactiveMode() {
         await interactiveIndex();
         break;
       case '6':
-        await interactiveConfig();
+        await interactiveExtractModels();
         break;
       case '7':
-        showConfig();
+        await interactiveConfig();
         break;
       case '8':
+        showConfig();
+        break;
+      case '9':
       case 'exit':
       case 'quit':
         console.log('\n👋 Goodbye! Happy repairing!\n');
@@ -377,6 +411,19 @@ program
   .action(async (options) => {
     checkEnvVars();
     await indexCommand(options);
+  });
+
+// Extract models command
+program
+  .command('extract-models')
+  .description('Extract and create directory structures for popular device models')
+  .option('--manufacturers <manufacturers>', 'Comma-separated list of manufacturers (default: all)')
+  .action(async (options) => {
+    const extractOptions = {};
+    if (options.manufacturers) {
+      extractOptions.manufacturers = options.manufacturers.split(',').map(m => m.trim().toLowerCase());
+    }
+    await extractModels(extractOptions);
   });
 
 // Global options
