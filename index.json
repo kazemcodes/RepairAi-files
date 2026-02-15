@@ -1,127 +1,136 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-02-14T15:00:00.000Z",
+  "updated_at": "2026-02-14T16:31:37.000Z",
   "schematics": [
     {
-      "path": "samsung/a310f/screws.md",
+      "path": "README.md",
       "type": "markdown",
-      "index": "Samsung Galaxy A3 (2016) SM-A310F Screw locations and types guide",
-      "description": "Complete screw identification guide with sizes and locations"
-    },
-    {
-      "path": "samsung/a310f/cover.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Back cover removal guide",
-      "description": "Battery cover removal instructions and components"
-    },
-    {
-      "path": "samsung/a310f/board.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Main board PCB layout and components",
-      "description": "PCB layout with connectors, test points and IC locations"
-    },
-    {
-      "path": "samsung/a310f/parts.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Spare parts list with part numbers",
-      "description": "Replaceable components and tools required"
-    },
-    {
-      "path": "samsung/a310f/steps.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Repair steps overview",
-      "description": "Index to all 12 repair steps"
-    },
-    {
-      "path": "samsung/a310f/solution.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Repair solution documentation",
-      "description": "Solution template for documenting repairs"
-    },
-    {
-      "path": "samsung/a310f/steps/step1.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 1: Preparation",
-      "description": "Gather tools and prepare workspace"
-    },
-    {
-      "path": "samsung/a310f/steps/step2.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 2: Power Off",
-      "description": "Safely power down the device"
-    },
-    {
-      "path": "samsung/a310f/steps/step3.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 3: Remove Back Cover",
-      "description": "Remove battery cover and expose internals"
-    },
-    {
-      "path": "samsung/a310f/steps/step4.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 4: Remove Screws",
-      "description": "Remove all securing screws"
-    },
-    {
-      "path": "samsung/a310f/steps/step5.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 5: Disconnect Battery",
-      "description": "Disconnect battery to prevent short circuits"
-    },
-    {
-      "path": "samsung/a310f/steps/step6.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 6: Remove Shield",
-      "description": "Remove main board metal shield"
-    },
-    {
-      "path": "samsung/a310f/steps/step7.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 7: Disconnect Display",
-      "description": "Disconnect display and touch connectors"
-    },
-    {
-      "path": "samsung/a310f/steps/step8.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 8: Remove Display",
-      "description": "Carefully remove display assembly"
-    },
-    {
-      "path": "samsung/a310f/steps/step9.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 9: Install Display",
-      "description": "Install new display assembly"
-    },
-    {
-      "path": "samsung/a310f/steps/step10.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 10: Reconnect",
-      "description": "Reconnect all cables and connectors"
-    },
-    {
-      "path": "samsung/a310f/steps/step11.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 11: Test",
-      "description": "Test device functionality"
-    },
-    {
-      "path": "samsung/a310f/steps/step12.md",
-      "type": "markdown",
-      "index": "Samsung Galaxy A3 SM-A310F Step 12: Reassemble",
-      "description": "Put device back together"
+      "index": "README.md",
+      "description": ""
     },
     {
       "path": "samsung/a310f/SM-A310F_Schematic_Diagram.pdf",
       "type": "pdf",
-      "index": "Samsung Galaxy A3 SM-A310F Original schematic diagram PDF",
-      "description": "Factory schematic diagram for Samsung Galaxy A3 2016"
+      "index": "Samsung A310F Sm-A310F_Schematic_Diagram.Pdf",
+      "description": "PDF file"
+    },
+    {
+      "path": "samsung/a310f/board.md",
+      "type": "markdown",
+      "index": "Samsung A310F Board",
+      "description": "| Component | Location | Notes |"
+    },
+    {
+      "path": "samsung/a310f/cover.md",
+      "type": "markdown",
+      "index": "Samsung A310F Cover",
+      "description": "1. Power off device completely"
+    },
+    {
+      "path": "samsung/a310f/parts.md",
+      "type": "markdown",
+      "index": "Samsung A310F Parts",
+      "description": "| Part Name | Part Number | Compatible Models | Notes |"
+    },
+    {
+      "path": "samsung/a310f/screws.md",
+      "type": "markdown",
+      "index": "Samsung A310F Screws",
+      "description": "| Screw # | Type | Size | Location | Quantity |"
+    },
+    {
+      "path": "samsung/a310f/steps.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step s",
+      "description": "This document provides an index to all repair steps for Samsung Galaxy A3 (a310f)."
+    },
+    {
+      "path": "samsung/a310f/steps/step1.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 1",
+      "description": "Gather all required tools and prepare your workspace for the repair."
+    },
+    {
+      "path": "samsung/a310f/steps/step10.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 10",
+      "description": "Reconnect all cables and connectors after display installation."
+    },
+    {
+      "path": "samsung/a310f/steps/step11.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 11",
+      "description": "Test device functionality before final assembly."
+    },
+    {
+      "path": "samsung/a310f/steps/step12.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 12",
+      "description": "Reassemble the device and complete the repair."
+    },
+    {
+      "path": "samsung/a310f/steps/step2.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 2",
+      "description": "Safely power down the device before starting repairs."
+    },
+    {
+      "path": "samsung/a310f/steps/step3.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 3",
+      "description": "Remove the battery cover to access internal components."
+    },
+    {
+      "path": "samsung/a310f/steps/step4.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 4",
+      "description": "Remove all securing screws to access internal components."
+    },
+    {
+      "path": "samsung/a310f/steps/step5.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 5",
+      "description": "Disconnect the battery from the main board to prevent short circuits."
+    },
+    {
+      "path": "samsung/a310f/steps/step6.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 6",
+      "description": "Remove the main board metal shield to access components."
+    },
+    {
+      "path": "samsung/a310f/steps/step7.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 7",
+      "description": "Disconnect the display and touch screen connectors from the board."
+    },
+    {
+      "path": "samsung/a310f/steps/step8.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 8",
+      "description": "Carefully remove the display assembly from the device."
+    },
+    {
+      "path": "samsung/a310f/steps/step9.md",
+      "type": "markdown",
+      "index": "Samsung A310F Step 9",
+      "description": "Install the new display assembly and connect all cables."
     }
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "path": "samsung/a310f/solution.md",
+      "type": "markdown",
+      "index": "Samsung A310F Solution",
+      "description": "| Property | Value |"
+    }
+  ],
   "manufacturers": [
     {
-      "name": "Samsung",
-      "models": ["a310f"]
+      "name": "samsung",
+      "models": [
+        "a310f"
+      ]
     }
   ]
 }
