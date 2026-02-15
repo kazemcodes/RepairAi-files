@@ -1,0 +1,203 @@
+{
+  "format": "BRD",
+  "version": "1.0",
+  "board": {
+    "width": 150.0,
+    "height": 75.0,
+    "outline": [
+      [0, 0],
+      [150, 0],
+      [150, 75],
+      [0, 75],
+      [0, 0]
+    ],
+    "units": "mm",
+    "layers": 2
+  },
+  "device": {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A3 (2016)",
+    "boardNumber": "A310F",
+    "revision": "Rev 1.0"
+  },
+  "components": [
+    {
+      "ref": "U1",
+      "type": "IC",
+      "x": 75.0,
+      "y": 37.5,
+      "value": "Exynos 7578",
+      "package": "BGA-256",
+      "rotation": 0,
+      "side": "top",
+      "description": "Main SoC - Quad-core processor",
+      "pins": ["U1.1", "U1.2", "U1.3"]
+    },
+    {
+      "ref": "U2",
+      "type": "IC",
+      "x": 50.0,
+      "y": 30.0,
+      "value": "K4E6E304EB",
+      "package": "BGA-178",
+      "rotation": 0,
+      "side": "top",
+      "description": "1.5GB LPDDR3 RAM",
+      "pins": ["U2.1", "U2.2"]
+    },
+    {
+      "ref": "U3",
+      "type": "IC",
+      "x": 100.0,
+      "y": 30.0,
+      "value": "KLMBG2JETD",
+      "package": "BGA-153",
+      "rotation": 0,
+      "side": "top",
+      "description": "16GB eMMC Storage",
+      "pins": ["U3.1", "U3.2"]
+    },
+    {
+      "ref": "U4",
+      "type": "IC",
+      "x": 75.0,
+      "y": 50.0,
+      "value": "MAX77838",
+      "package": "QFN-40",
+      "rotation": 0,
+      "side": "top",
+      "description": "Power Management IC",
+      "pins": ["U4.1", "U4.2", "U4.3"]
+    },
+    {
+      "ref": "C1",
+      "type": "capacitor",
+      "x": 45.0,
+      "y": 25.0,
+      "value": "10uF",
+      "package": "0402",
+      "rotation": 0,
+      "side": "top",
+      "pins": ["C1.1", "C1.2"]
+    },
+    {
+      "ref": "C2",
+      "type": "capacitor",
+      "x": 55.0,
+      "y": 25.0,
+      "value": "10uF",
+      "package": "0402",
+      "rotation": 0,
+      "side": "top",
+      "pins": ["C2.1", "C2.2"]
+    },
+    {
+      "ref": "R1",
+      "type": "resistor",
+      "x": 45.0,
+      "y": 35.0,
+      "value": "10K",
+      "package": "0402",
+      "rotation": 0,
+      "side": "top",
+      "pins": ["R1.1", "R1.2"]
+    },
+    {
+      "ref": "R2",
+      "type": "resistor",
+      "x": 55.0,
+      "y": 35.0,
+      "value": "10K",
+      "package": "0402",
+      "rotation": 0,
+      "side": "top",
+      "pins": ["R2.1", "R2.2"]
+    },
+    {
+      "ref": "L1",
+      "type": "inductor",
+      "x": 70.0,
+      "y": 55.0,
+      "value": "2.2uH",
+      "package": "0603",
+      "rotation": 0,
+      "side": "top",
+      "pins": ["L1.1", "L1.2"]
+    },
+    {
+      "ref": "J1",
+      "type": "connector",
+      "x": 10.0,
+      "y": 37.5,
+      "value": "USB-C",
+      "package": "USB-C-16P",
+      "rotation": 90,
+      "side": "top",
+      "description": "USB Type-C Connector",
+      "pins": ["J1.1", "J1.2", "J1.3", "J1.4"]
+    }
+  ],
+  "nets": [
+    {
+      "name": "VDD_CORE",
+      "pins": ["U1.1", "U4.1", "C1.1", "C2.1"],
+      "id": "net1"
+    },
+    {
+      "name": "GND",
+      "pins": ["U1.2", "U2.2", "U3.2", "U4.2", "C1.2", "C2.2", "R1.2", "R2.2", "L1.2", "J1.4"],
+      "id": "net2"
+    },
+    {
+      "name": "VDD_MEM",
+      "pins": ["U2.1", "U4.3", "R1.1"],
+      "id": "net3"
+    },
+    {
+      "name": "VDD_EMMC",
+      "pins": ["U3.1", "R2.1"],
+      "id": "net4"
+    },
+    {
+      "name": "USB_DP",
+      "pins": ["U1.3", "J1.1"],
+      "id": "net5"
+    },
+    {
+      "name": "USB_DN",
+      "pins": ["J1.2"],
+      "id": "net6"
+    },
+    {
+      "name": "VBUS",
+      "pins": ["J1.3", "L1.1"],
+      "id": "net7"
+    }
+  ],
+  "pins": [
+    {"component": "U1", "number": "1", "net": "VDD_CORE", "x": 75.0, "y": 37.0},
+    {"component": "U1", "number": "2", "net": "GND", "x": 75.5, "y": 37.0},
+    {"component": "U1", "number": "3", "net": "USB_DP", "x": 76.0, "y": 37.0},
+    {"component": "U2", "number": "1", "net": "VDD_MEM", "x": 50.0, "y": 29.5},
+    {"component": "U2", "number": "2", "net": "GND", "x": 50.5, "y": 29.5},
+    {"component": "U3", "number": "1", "net": "VDD_EMMC", "x": 100.0, "y": 29.5},
+    {"component": "U3", "number": "2", "net": "GND", "x": 100.5, "y": 29.5},
+    {"component": "U4", "number": "1", "net": "VDD_CORE", "x": 75.0, "y": 49.5},
+    {"component": "U4", "number": "2", "net": "GND", "x": 75.5, "y": 49.5},
+    {"component": "U4", "number": "3", "net": "VDD_MEM", "x": 76.0, "y": 49.5},
+    {"component": "C1", "number": "1", "net": "VDD_CORE", "x": 44.5, "y": 25.0},
+    {"component": "C1", "number": "2", "net": "GND", "x": 45.5, "y": 25.0},
+    {"component": "C2", "number": "1", "net": "VDD_CORE", "x": 54.5, "y": 25.0},
+    {"component": "C2", "number": "2", "net": "GND", "x": 55.5, "y": 25.0},
+    {"component": "R1", "number": "1", "net": "VDD_MEM", "x": 44.5, "y": 35.0},
+    {"component": "R1", "number": "2", "net": "GND", "x": 45.5, "y": 35.0},
+    {"component": "R2", "number": "1", "net": "VDD_EMMC", "x": 54.5, "y": 35.0},
+    {"component": "R2", "number": "2", "net": "GND", "x": 55.5, "y": 35.0},
+    {"component": "L1", "number": "1", "net": "VBUS", "x": 69.5, "y": 55.0},
+    {"component": "L1", "number": "2", "net": "GND", "x": 70.5, "y": 55.0},
+    {"component": "J1", "number": "1", "net": "USB_DP", "x": 10.0, "y": 36.0},
+    {"component": "J1", "number": "2", "net": "USB_DN", "x": 10.0, "y": 37.0},
+    {"component": "J1", "number": "3", "net": "VBUS", "x": 10.0, "y": 38.0},
+    {"component": "J1", "number": "4", "net": "GND", "x": 10.0, "y": 39.0}
+  ]
+}
