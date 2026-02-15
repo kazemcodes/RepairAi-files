@@ -1,12 +1,852 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-02-14T16:31:37.000Z",
+  "updated_at": "2026-02-15T06:43:18.000Z",
   "schematics": [
+    {
+      "path": "BOARDVIEW_INTEGRATION_GUIDE.md",
+      "type": "markdown",
+      "index": "BOARDVIEW_INTEGRATION_GUIDE.md",
+      "description": "This guide explains how to integrate interactive boardview files (.brd, .bv, .bdv) into RepairAI, al"
+    },
+    {
+      "path": "DEVICE_EXTRACTION_SUMMARY.md",
+      "type": "markdown",
+      "index": "DEVICE_EXTRACTION_SUMMARY.md",
+      "description": "Successfully extracted and created directory structures for 120 popular device models across 8 major"
+    },
+    {
+      "path": "GITHUB_SCHEMATIC_GUIDE.md",
+      "type": "markdown",
+      "index": "GITHUB_SCHEMATIC_GUIDE.md",
+      "description": "This guide explains how to search for and integrate phone schematics from GitHub and other sources i"
+    },
+    {
+      "path": "IMPLEMENTATION_COMPLETE.md",
+      "type": "markdown",
+      "index": "IMPLEMENTATION_COMPLETE.md",
+      "description": "Complete implementation of interactive schematic/boardview viewer system for RepairAI, allowing user"
+    },
+    {
+      "path": "INTERACTIVE_SCHEMATIC_SPEC.md",
+      "type": "markdown",
+      "index": "INTERACTIVE_SCHEMATIC_SPEC.md",
+      "description": "This document specifies the interactive schematic viewer feature for RepairAI, inspired by DZKJ, KiC"
+    },
+    {
+      "path": "PARSER_IMPLEMENTATION.md",
+      "type": "markdown",
+      "index": "PARSER_IMPLEMENTATION.md",
+      "description": ""
+    },
     {
       "path": "README.md",
       "type": "markdown",
       "index": "README.md",
       "description": ""
+    },
+    {
+      "path": "apple/iphone-11-pro-max/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-11-PRO-MAX Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-11-pro-max/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-11-PRO-MAX Search_Guide",
+      "description": "- [apple iPhone 11 Pro Max boardview](https://www.google.com/search?q=apple%20iPhone%2011%20Pro%20Ma"
+    },
+    {
+      "path": "apple/iphone-11-pro/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-11-PRO Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-11-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-11-PRO Search_Guide",
+      "description": "- [apple iPhone 11 Pro boardview](https://www.google.com/search?q=apple%20iPhone%2011%20Pro%20boardv"
+    },
+    {
+      "path": "apple/iphone-11/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-11 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-11/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-11 Search_Guide",
+      "description": "- [apple iPhone 11 boardview](https://www.google.com/search?q=apple%20iPhone%2011%20boardview)"
+    },
+    {
+      "path": "apple/iphone-12-mini/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12-MINI Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-12-mini/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12-MINI Search_Guide",
+      "description": "- [apple iPhone 12 Mini boardview](https://www.google.com/search?q=apple%20iPhone%2012%20Mini%20boar"
+    },
+    {
+      "path": "apple/iphone-12-pro-max/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12-PRO-MAX Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-12-pro-max/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12-PRO-MAX Search_Guide",
+      "description": "- [apple iPhone 12 Pro Max boardview](https://www.google.com/search?q=apple%20iPhone%2012%20Pro%20Ma"
+    },
+    {
+      "path": "apple/iphone-12-pro/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12-PRO Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-12-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12-PRO Search_Guide",
+      "description": "- [apple iPhone 12 Pro boardview](https://www.google.com/search?q=apple%20iPhone%2012%20Pro%20boardv"
+    },
+    {
+      "path": "apple/iphone-12/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-12/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-12 Search_Guide",
+      "description": "- [apple iPhone 12 boardview](https://www.google.com/search?q=apple%20iPhone%2012%20boardview)"
+    },
+    {
+      "path": "apple/iphone-13-mini/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13-MINI Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-13-mini/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13-MINI Search_Guide",
+      "description": "- [apple iPhone 13 Mini boardview](https://www.google.com/search?q=apple%20iPhone%2013%20Mini%20boar"
+    },
+    {
+      "path": "apple/iphone-13-pro-max/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13-PRO-MAX Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-13-pro-max/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13-PRO-MAX Search_Guide",
+      "description": "- [apple iPhone 13 Pro Max boardview](https://www.google.com/search?q=apple%20iPhone%2013%20Pro%20Ma"
+    },
+    {
+      "path": "apple/iphone-13-pro/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13-PRO Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-13-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13-PRO Search_Guide",
+      "description": "- [apple iPhone 13 Pro boardview](https://www.google.com/search?q=apple%20iPhone%2013%20Pro%20boardv"
+    },
+    {
+      "path": "apple/iphone-13/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-13/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-13 Search_Guide",
+      "description": "- [apple iPhone 13 boardview](https://www.google.com/search?q=apple%20iPhone%2013%20boardview)"
+    },
+    {
+      "path": "apple/iphone-14-plus/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14-PLUS Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-14-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14-PLUS Search_Guide",
+      "description": "- [apple iPhone 14 Plus boardview](https://www.google.com/search?q=apple%20iPhone%2014%20Plus%20boar"
+    },
+    {
+      "path": "apple/iphone-14-pro-max/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14-PRO-MAX Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-14-pro-max/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14-PRO-MAX Search_Guide",
+      "description": "- [apple iPhone 14 Pro Max boardview](https://www.google.com/search?q=apple%20iPhone%2014%20Pro%20Ma"
+    },
+    {
+      "path": "apple/iphone-14-pro/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14-PRO Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-14-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14-PRO Search_Guide",
+      "description": "- [apple iPhone 14 Pro boardview](https://www.google.com/search?q=apple%20iPhone%2014%20Pro%20boardv"
+    },
+    {
+      "path": "apple/iphone-14/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-14/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-14 Search_Guide",
+      "description": "- [apple iPhone 14 boardview](https://www.google.com/search?q=apple%20iPhone%2014%20boardview)"
+    },
+    {
+      "path": "apple/iphone-15-plus/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15-PLUS Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-15-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15-PLUS Search_Guide",
+      "description": "- [apple iPhone 15 Plus boardview](https://www.google.com/search?q=apple%20iPhone%2015%20Plus%20boar"
+    },
+    {
+      "path": "apple/iphone-15-pro-max/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15-PRO-MAX Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-15-pro-max/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15-PRO-MAX Search_Guide",
+      "description": "- [apple iPhone 15 Pro Max boardview](https://www.google.com/search?q=apple%20iPhone%2015%20Pro%20Ma"
+    },
+    {
+      "path": "apple/iphone-15-pro/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15-PRO Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-15-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15-PRO Search_Guide",
+      "description": "- [apple iPhone 15 Pro boardview](https://www.google.com/search?q=apple%20iPhone%2015%20Pro%20boardv"
+    },
+    {
+      "path": "apple/iphone-15/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-15/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-15 Search_Guide",
+      "description": "- [apple iPhone 15 boardview](https://www.google.com/search?q=apple%20iPhone%2015%20boardview)"
+    },
+    {
+      "path": "apple/iphone-7-plus/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-7-PLUS Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-7-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-7-PLUS Search_Guide",
+      "description": "- [apple iPhone 7 Plus boardview](https://www.google.com/search?q=apple%20iPhone%207%20Plus%20boardv"
+    },
+    {
+      "path": "apple/iphone-7/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-7 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-7/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-7 Search_Guide",
+      "description": "- [apple iPhone 7 boardview](https://www.google.com/search?q=apple%20iPhone%207%20boardview)"
+    },
+    {
+      "path": "apple/iphone-8-plus/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-8-PLUS Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-8-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-8-PLUS Search_Guide",
+      "description": "- [apple iPhone 8 Plus boardview](https://www.google.com/search?q=apple%20iPhone%208%20Plus%20boardv"
+    },
+    {
+      "path": "apple/iphone-8/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-8 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-8/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-8 Search_Guide",
+      "description": "- [apple iPhone 8 boardview](https://www.google.com/search?q=apple%20iPhone%208%20boardview)"
+    },
+    {
+      "path": "apple/iphone-x/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-X Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-x/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-X Search_Guide",
+      "description": "- [apple iPhone X boardview](https://www.google.com/search?q=apple%20iPhone%20X%20boardview)"
+    },
+    {
+      "path": "apple/iphone-xr/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-XR Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-xr/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-XR Search_Guide",
+      "description": "- [apple iPhone XR boardview](https://www.google.com/search?q=apple%20iPhone%20XR%20boardview)"
+    },
+    {
+      "path": "apple/iphone-xs-max/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-XS-MAX Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-xs-max/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-XS-MAX Search_Guide",
+      "description": "- [apple iPhone XS Max boardview](https://www.google.com/search?q=apple%20iPhone%20XS%20Max%20boardv"
+    },
+    {
+      "path": "apple/iphone-xs/README.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-XS Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/iphone-xs/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple IPHONE-XS Search_Guide",
+      "description": "- [apple iPhone XS boardview](https://www.google.com/search?q=apple%20iPhone%20XS%20boardview)"
+    },
+    {
+      "path": "apple/macbook-air-2020/README.md",
+      "type": "markdown",
+      "index": "Apple MACBOOK-AIR-2020 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/macbook-air-2020/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple MACBOOK-AIR-2020 Search_Guide",
+      "description": "- [apple MacBook Air 2020 boardview](https://www.google.com/search?q=apple%20MacBook%20Air%202020%20"
+    },
+    {
+      "path": "apple/macbook-pro-13-2020/README.md",
+      "type": "markdown",
+      "index": "Apple MACBOOK-PRO-13-2020 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/macbook-pro-13-2020/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple MACBOOK-PRO-13-2020 Search_Guide",
+      "description": "- [apple MacBook Pro 13 2020 boardview](https://www.google.com/search?q=apple%20MacBook%20Pro%2013%2"
+    },
+    {
+      "path": "apple/macbook-pro-16-2019/README.md",
+      "type": "markdown",
+      "index": "Apple MACBOOK-PRO-16-2019 Readme",
+      "description": "- **Manufacturer**: apple"
+    },
+    {
+      "path": "apple/macbook-pro-16-2019/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Apple MACBOOK-PRO-16-2019 Search_Guide",
+      "description": "- [apple MacBook Pro 16 2019 boardview](https://www.google.com/search?q=apple%20MacBook%20Pro%2016%2"
+    },
+    {
+      "path": "google/pixel-4a/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-4A Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-4a/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-4A Search_Guide",
+      "description": "- [google Pixel 4a boardview](https://www.google.com/search?q=google%20Pixel%204a%20boardview)"
+    },
+    {
+      "path": "google/pixel-5/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-5 Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-5/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-5 Search_Guide",
+      "description": "- [google Pixel 5 boardview](https://www.google.com/search?q=google%20Pixel%205%20boardview)"
+    },
+    {
+      "path": "google/pixel-6-pro/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-6-PRO Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-6-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-6-PRO Search_Guide",
+      "description": "- [google Pixel 6 Pro boardview](https://www.google.com/search?q=google%20Pixel%206%20Pro%20boardvie"
+    },
+    {
+      "path": "google/pixel-6/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-6 Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-6/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-6 Search_Guide",
+      "description": "- [google Pixel 6 boardview](https://www.google.com/search?q=google%20Pixel%206%20boardview)"
+    },
+    {
+      "path": "google/pixel-7-pro/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-7-PRO Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-7-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-7-PRO Search_Guide",
+      "description": "- [google Pixel 7 Pro boardview](https://www.google.com/search?q=google%20Pixel%207%20Pro%20boardvie"
+    },
+    {
+      "path": "google/pixel-7/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-7 Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-7/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-7 Search_Guide",
+      "description": "- [google Pixel 7 boardview](https://www.google.com/search?q=google%20Pixel%207%20boardview)"
+    },
+    {
+      "path": "google/pixel-8-pro/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-8-PRO Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-8-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-8-PRO Search_Guide",
+      "description": "- [google Pixel 8 Pro boardview](https://www.google.com/search?q=google%20Pixel%208%20Pro%20boardvie"
+    },
+    {
+      "path": "google/pixel-8/README.md",
+      "type": "markdown",
+      "index": "Google PIXEL-8 Readme",
+      "description": "- **Manufacturer**: google"
+    },
+    {
+      "path": "google/pixel-8/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Google PIXEL-8 Search_Guide",
+      "description": "- [google Pixel 8 boardview](https://www.google.com/search?q=google%20Pixel%208%20boardview)"
+    },
+    {
+      "path": "huawei/mate-30-pro/README.md",
+      "type": "markdown",
+      "index": "Huawei MATE-30-PRO Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/mate-30-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei MATE-30-PRO Search_Guide",
+      "description": "- [huawei Mate 30 Pro boardview](https://www.google.com/search?q=huawei%20Mate%2030%20Pro%20boardvie"
+    },
+    {
+      "path": "huawei/mate-40-pro/README.md",
+      "type": "markdown",
+      "index": "Huawei MATE-40-PRO Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/mate-40-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei MATE-40-PRO Search_Guide",
+      "description": "- [huawei Mate 40 Pro boardview](https://www.google.com/search?q=huawei%20Mate%2040%20Pro%20boardvie"
+    },
+    {
+      "path": "huawei/mate-50-pro/README.md",
+      "type": "markdown",
+      "index": "Huawei MATE-50-PRO Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/mate-50-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei MATE-50-PRO Search_Guide",
+      "description": "- [huawei Mate 50 Pro boardview](https://www.google.com/search?q=huawei%20Mate%2050%20Pro%20boardvie"
+    },
+    {
+      "path": "huawei/nova-10/README.md",
+      "type": "markdown",
+      "index": "Huawei NOVA-10 Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/nova-10/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei NOVA-10 Search_Guide",
+      "description": "- [huawei Nova 10 boardview](https://www.google.com/search?q=huawei%20Nova%2010%20boardview)"
+    },
+    {
+      "path": "huawei/nova-11/README.md",
+      "type": "markdown",
+      "index": "Huawei NOVA-11 Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/nova-11/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei NOVA-11 Search_Guide",
+      "description": "- [huawei Nova 11 boardview](https://www.google.com/search?q=huawei%20Nova%2011%20boardview)"
+    },
+    {
+      "path": "huawei/nova-9/README.md",
+      "type": "markdown",
+      "index": "Huawei NOVA-9 Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/nova-9/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei NOVA-9 Search_Guide",
+      "description": "- [huawei Nova 9 boardview](https://www.google.com/search?q=huawei%20Nova%209%20boardview)"
+    },
+    {
+      "path": "huawei/p20-pro/README.md",
+      "type": "markdown",
+      "index": "Huawei P20-PRO Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/p20-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei P20-PRO Search_Guide",
+      "description": "- [huawei P20 Pro boardview](https://www.google.com/search?q=huawei%20P20%20Pro%20boardview)"
+    },
+    {
+      "path": "huawei/p30-pro/README.md",
+      "type": "markdown",
+      "index": "Huawei P30-PRO Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/p30-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei P30-PRO Search_Guide",
+      "description": "- [huawei P30 Pro boardview](https://www.google.com/search?q=huawei%20P30%20Pro%20boardview)"
+    },
+    {
+      "path": "huawei/p40-pro/README.md",
+      "type": "markdown",
+      "index": "Huawei P40-PRO Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/p40-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei P40-PRO Search_Guide",
+      "description": "- [huawei P40 Pro boardview](https://www.google.com/search?q=huawei%20P40%20Pro%20boardview)"
+    },
+    {
+      "path": "huawei/p50-pro/README.md",
+      "type": "markdown",
+      "index": "Huawei P50-PRO Readme",
+      "description": "- **Manufacturer**: huawei"
+    },
+    {
+      "path": "huawei/p50-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Huawei P50-PRO Search_Guide",
+      "description": "- [huawei P50 Pro boardview](https://www.google.com/search?q=huawei%20P50%20Pro%20boardview)"
+    },
+    {
+      "path": "oneplus/nord-2t/README.md",
+      "type": "markdown",
+      "index": "Oneplus NORD-2T Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/nord-2t/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus NORD-2T Search_Guide",
+      "description": "- [oneplus Nord 2T boardview](https://www.google.com/search?q=oneplus%20Nord%202T%20boardview)"
+    },
+    {
+      "path": "oneplus/nord-3/README.md",
+      "type": "markdown",
+      "index": "Oneplus NORD-3 Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/nord-3/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus NORD-3 Search_Guide",
+      "description": "- [oneplus Nord 3 boardview](https://www.google.com/search?q=oneplus%20Nord%203%20boardview)"
+    },
+    {
+      "path": "oneplus/nord-ce-3/README.md",
+      "type": "markdown",
+      "index": "Oneplus NORD-CE-3 Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/nord-ce-3/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus NORD-CE-3 Search_Guide",
+      "description": "- [oneplus Nord CE 3 boardview](https://www.google.com/search?q=oneplus%20Nord%20CE%203%20boardview)"
+    },
+    {
+      "path": "oneplus/oneplus-10-pro/README.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-10-PRO Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/oneplus-10-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-10-PRO Search_Guide",
+      "description": "- [oneplus OnePlus 10 Pro boardview](https://www.google.com/search?q=oneplus%20OnePlus%2010%20Pro%20"
+    },
+    {
+      "path": "oneplus/oneplus-11/README.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-11 Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/oneplus-11/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-11 Search_Guide",
+      "description": "- [oneplus OnePlus 11 boardview](https://www.google.com/search?q=oneplus%20OnePlus%2011%20boardview)"
+    },
+    {
+      "path": "oneplus/oneplus-7t-pro/README.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-7T-PRO Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/oneplus-7t-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-7T-PRO Search_Guide",
+      "description": "- [oneplus OnePlus 7T Pro boardview](https://www.google.com/search?q=oneplus%20OnePlus%207T%20Pro%20"
+    },
+    {
+      "path": "oneplus/oneplus-8-pro/README.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-8-PRO Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/oneplus-8-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-8-PRO Search_Guide",
+      "description": "- [oneplus OnePlus 8 Pro boardview](https://www.google.com/search?q=oneplus%20OnePlus%208%20Pro%20bo"
+    },
+    {
+      "path": "oneplus/oneplus-8t/README.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-8T Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/oneplus-8t/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-8T Search_Guide",
+      "description": "- [oneplus OnePlus 8T boardview](https://www.google.com/search?q=oneplus%20OnePlus%208T%20boardview)"
+    },
+    {
+      "path": "oneplus/oneplus-9-pro/README.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-9-PRO Readme",
+      "description": "- **Manufacturer**: oneplus"
+    },
+    {
+      "path": "oneplus/oneplus-9-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oneplus ONEPLUS-9-PRO Search_Guide",
+      "description": "- [oneplus OnePlus 9 Pro boardview](https://www.google.com/search?q=oneplus%20OnePlus%209%20Pro%20bo"
+    },
+    {
+      "path": "oppo/a58/README.md",
+      "type": "markdown",
+      "index": "Oppo A58 Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/a58/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo A58 Search_Guide",
+      "description": "- [oppo A58 boardview](https://www.google.com/search?q=oppo%20A58%20boardview)"
+    },
+    {
+      "path": "oppo/a78/README.md",
+      "type": "markdown",
+      "index": "Oppo A78 Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/a78/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo A78 Search_Guide",
+      "description": "- [oppo A78 boardview](https://www.google.com/search?q=oppo%20A78%20boardview)"
+    },
+    {
+      "path": "oppo/a98/README.md",
+      "type": "markdown",
+      "index": "Oppo A98 Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/a98/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo A98 Search_Guide",
+      "description": "- [oppo A98 boardview](https://www.google.com/search?q=oppo%20A98%20boardview)"
+    },
+    {
+      "path": "oppo/find-x3-pro/README.md",
+      "type": "markdown",
+      "index": "Oppo FIND-X3-PRO Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/find-x3-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo FIND-X3-PRO Search_Guide",
+      "description": "- [oppo Find X3 Pro boardview](https://www.google.com/search?q=oppo%20Find%20X3%20Pro%20boardview)"
+    },
+    {
+      "path": "oppo/find-x5-pro/README.md",
+      "type": "markdown",
+      "index": "Oppo FIND-X5-PRO Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/find-x5-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo FIND-X5-PRO Search_Guide",
+      "description": "- [oppo Find X5 Pro boardview](https://www.google.com/search?q=oppo%20Find%20X5%20Pro%20boardview)"
+    },
+    {
+      "path": "oppo/find-x6-pro/README.md",
+      "type": "markdown",
+      "index": "Oppo FIND-X6-PRO Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/find-x6-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo FIND-X6-PRO Search_Guide",
+      "description": "- [oppo Find X6 Pro boardview](https://www.google.com/search?q=oppo%20Find%20X6%20Pro%20boardview)"
+    },
+    {
+      "path": "oppo/reno-10/README.md",
+      "type": "markdown",
+      "index": "Oppo RENO-10 Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/reno-10/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo RENO-10 Search_Guide",
+      "description": "- [oppo Reno 10 boardview](https://www.google.com/search?q=oppo%20Reno%2010%20boardview)"
+    },
+    {
+      "path": "oppo/reno-7/README.md",
+      "type": "markdown",
+      "index": "Oppo RENO-7 Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/reno-7/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo RENO-7 Search_Guide",
+      "description": "- [oppo Reno 7 boardview](https://www.google.com/search?q=oppo%20Reno%207%20boardview)"
+    },
+    {
+      "path": "oppo/reno-8/README.md",
+      "type": "markdown",
+      "index": "Oppo RENO-8 Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/reno-8/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo RENO-8 Search_Guide",
+      "description": "- [oppo Reno 8 boardview](https://www.google.com/search?q=oppo%20Reno%208%20boardview)"
+    },
+    {
+      "path": "oppo/reno-9/README.md",
+      "type": "markdown",
+      "index": "Oppo RENO-9 Readme",
+      "description": "- **Manufacturer**: oppo"
+    },
+    {
+      "path": "oppo/reno-9/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Oppo RENO-9 Search_Guide",
+      "description": "- [oppo Reno 9 boardview](https://www.google.com/search?q=oppo%20Reno%209%20boardview)"
     },
     {
       "path": "samsung/a310f/SM-A310F_Schematic_Diagram.pdf",
@@ -115,6 +955,660 @@
       "type": "markdown",
       "index": "Samsung A310F Step 9",
       "description": "Install the new display assembly and connect all cables."
+    },
+    {
+      "path": "samsung/galaxy-a10/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A10 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a10/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A10 Search_Guide",
+      "description": "- [samsung Galaxy A10 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A10%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a12/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A12 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a12/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A12 Search_Guide",
+      "description": "- [samsung Galaxy A12 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A12%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a13/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A13 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a13/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A13 Search_Guide",
+      "description": "- [samsung Galaxy A13 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A13%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a14/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A14 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a14/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A14 Search_Guide",
+      "description": "- [samsung Galaxy A14 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A14%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a31/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A31 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a31/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A31 Search_Guide",
+      "description": "- [samsung Galaxy A31 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A31%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a32/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A32 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a32/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A32 Search_Guide",
+      "description": "- [samsung Galaxy A32 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A32%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a33/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A33 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a33/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A33 Search_Guide",
+      "description": "- [samsung Galaxy A33 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A33%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a34/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A34 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a34/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A34 Search_Guide",
+      "description": "- [samsung Galaxy A34 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A34%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a51/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A51 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a51/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A51 Search_Guide",
+      "description": "- [samsung Galaxy A51 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A51%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a52/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A52 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a52/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A52 Search_Guide",
+      "description": "- [samsung Galaxy A52 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A52%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a53/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A53 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a53/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A53 Search_Guide",
+      "description": "- [samsung Galaxy A53 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A53%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-a54/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A54 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-a54/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-A54 Search_Guide",
+      "description": "- [samsung Galaxy A54 boardview](https://www.google.com/search?q=samsung%20Galaxy%20A54%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-note-20-ultra/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-NOTE-20-ULTRA Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-note-20-ultra/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-NOTE-20-ULTRA Search_Guide",
+      "description": "- [samsung Galaxy Note 20 Ultra boardview](https://www.google.com/search?q=samsung%20Galaxy%20Note%2"
+    },
+    {
+      "path": "samsung/galaxy-note-20/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-NOTE-20 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-note-20/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-NOTE-20 Search_Guide",
+      "description": "- [samsung Galaxy Note 20 boardview](https://www.google.com/search?q=samsung%20Galaxy%20Note%2020%20"
+    },
+    {
+      "path": "samsung/galaxy-s20-plus/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S20-PLUS Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s20-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S20-PLUS Search_Guide",
+      "description": "- [samsung Galaxy S20 Plus boardview](https://www.google.com/search?q=samsung%20Galaxy%20S20%20Plus%"
+    },
+    {
+      "path": "samsung/galaxy-s20-ultra/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S20-ULTRA Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s20-ultra/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S20-ULTRA Search_Guide",
+      "description": "- [samsung Galaxy S20 Ultra boardview](https://www.google.com/search?q=samsung%20Galaxy%20S20%20Ultr"
+    },
+    {
+      "path": "samsung/galaxy-s20/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S20 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s20/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S20 Search_Guide",
+      "description": "- [samsung Galaxy S20 boardview](https://www.google.com/search?q=samsung%20Galaxy%20S20%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-s21-plus/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S21-PLUS Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s21-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S21-PLUS Search_Guide",
+      "description": "- [samsung Galaxy S21 Plus boardview](https://www.google.com/search?q=samsung%20Galaxy%20S21%20Plus%"
+    },
+    {
+      "path": "samsung/galaxy-s21-ultra/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S21-ULTRA Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s21-ultra/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S21-ULTRA Search_Guide",
+      "description": "- [samsung Galaxy S21 Ultra boardview](https://www.google.com/search?q=samsung%20Galaxy%20S21%20Ultr"
+    },
+    {
+      "path": "samsung/galaxy-s21/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S21 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s21/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S21 Search_Guide",
+      "description": "- [samsung Galaxy S21 boardview](https://www.google.com/search?q=samsung%20Galaxy%20S21%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-s22-plus/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S22-PLUS Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s22-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S22-PLUS Search_Guide",
+      "description": "- [samsung Galaxy S22 Plus boardview](https://www.google.com/search?q=samsung%20Galaxy%20S22%20Plus%"
+    },
+    {
+      "path": "samsung/galaxy-s22-ultra/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S22-ULTRA Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s22-ultra/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S22-ULTRA Search_Guide",
+      "description": "- [samsung Galaxy S22 Ultra boardview](https://www.google.com/search?q=samsung%20Galaxy%20S22%20Ultr"
+    },
+    {
+      "path": "samsung/galaxy-s22/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S22 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s22/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S22 Search_Guide",
+      "description": "- [samsung Galaxy S22 boardview](https://www.google.com/search?q=samsung%20Galaxy%20S22%20boardview)"
+    },
+    {
+      "path": "samsung/galaxy-s23-plus/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S23-PLUS Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s23-plus/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S23-PLUS Search_Guide",
+      "description": "- [samsung Galaxy S23 Plus boardview](https://www.google.com/search?q=samsung%20Galaxy%20S23%20Plus%"
+    },
+    {
+      "path": "samsung/galaxy-s23-ultra/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S23-ULTRA Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s23-ultra/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S23-ULTRA Search_Guide",
+      "description": "- [samsung Galaxy S23 Ultra boardview](https://www.google.com/search?q=samsung%20Galaxy%20S23%20Ultr"
+    },
+    {
+      "path": "samsung/galaxy-s23/README.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S23 Readme",
+      "description": "- **Manufacturer**: samsung"
+    },
+    {
+      "path": "samsung/galaxy-s23/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Samsung GALAXY-S23 Search_Guide",
+      "description": "- [samsung Galaxy S23 boardview](https://www.google.com/search?q=samsung%20Galaxy%20S23%20boardview)"
+    },
+    {
+      "path": "scraper/PARSERS_README.md",
+      "type": "markdown",
+      "index": "Scraper PARSERS_README Parsers_Readme",
+      "description": "JavaScript implementations of boardview file format parsers based on [OpenBoardView](https://github."
+    },
+    {
+      "path": "scraper/README.md",
+      "type": "markdown",
+      "index": "Scraper README Readme",
+      "description": "AI-powered web scraper for enriching RepairAi-files with repair documentation."
+    },
+    {
+      "path": "scraper/github-schematic-sources.md",
+      "type": "markdown",
+      "index": "Scraper GITHUB-SCHEMATIC-SOURCES Github-Schematic-Sources",
+      "description": "This document contains curated GitHub repositories and sources for phone schematics and repair docum"
+    },
+    {
+      "path": "vivo/v23/README.md",
+      "type": "markdown",
+      "index": "Vivo V23 Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/v23/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo V23 Search_Guide",
+      "description": "- [vivo V23 boardview](https://www.google.com/search?q=vivo%20V23%20boardview)"
+    },
+    {
+      "path": "vivo/v25/README.md",
+      "type": "markdown",
+      "index": "Vivo V25 Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/v25/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo V25 Search_Guide",
+      "description": "- [vivo V25 boardview](https://www.google.com/search?q=vivo%20V25%20boardview)"
+    },
+    {
+      "path": "vivo/v27/README.md",
+      "type": "markdown",
+      "index": "Vivo V27 Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/v27/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo V27 Search_Guide",
+      "description": "- [vivo V27 boardview](https://www.google.com/search?q=vivo%20V27%20boardview)"
+    },
+    {
+      "path": "vivo/v29/README.md",
+      "type": "markdown",
+      "index": "Vivo V29 Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/v29/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo V29 Search_Guide",
+      "description": "- [vivo V29 boardview](https://www.google.com/search?q=vivo%20V29%20boardview)"
+    },
+    {
+      "path": "vivo/x70-pro/README.md",
+      "type": "markdown",
+      "index": "Vivo X70-PRO Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/x70-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo X70-PRO Search_Guide",
+      "description": "- [vivo X70 Pro boardview](https://www.google.com/search?q=vivo%20X70%20Pro%20boardview)"
+    },
+    {
+      "path": "vivo/x80-pro/README.md",
+      "type": "markdown",
+      "index": "Vivo X80-PRO Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/x80-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo X80-PRO Search_Guide",
+      "description": "- [vivo X80 Pro boardview](https://www.google.com/search?q=vivo%20X80%20Pro%20boardview)"
+    },
+    {
+      "path": "vivo/x90-pro/README.md",
+      "type": "markdown",
+      "index": "Vivo X90-PRO Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/x90-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo X90-PRO Search_Guide",
+      "description": "- [vivo X90 Pro boardview](https://www.google.com/search?q=vivo%20X90%20Pro%20boardview)"
+    },
+    {
+      "path": "vivo/y22/README.md",
+      "type": "markdown",
+      "index": "Vivo Y22 Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/y22/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo Y22 Search_Guide",
+      "description": "- [vivo Y22 boardview](https://www.google.com/search?q=vivo%20Y22%20boardview)"
+    },
+    {
+      "path": "vivo/y27/README.md",
+      "type": "markdown",
+      "index": "Vivo Y27 Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/y27/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo Y27 Search_Guide",
+      "description": "- [vivo Y27 boardview](https://www.google.com/search?q=vivo%20Y27%20boardview)"
+    },
+    {
+      "path": "vivo/y36/README.md",
+      "type": "markdown",
+      "index": "Vivo Y36 Readme",
+      "description": "- **Manufacturer**: vivo"
+    },
+    {
+      "path": "vivo/y36/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Vivo Y36 Search_Guide",
+      "description": "- [vivo Y36 boardview](https://www.google.com/search?q=vivo%20Y36%20boardview)"
+    },
+    {
+      "path": "xiaomi/mi-10-pro/README.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-10-PRO Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/mi-10-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-10-PRO Search_Guide",
+      "description": "- [xiaomi Mi 10 Pro boardview](https://www.google.com/search?q=xiaomi%20Mi%2010%20Pro%20boardview)"
+    },
+    {
+      "path": "xiaomi/mi-10/README.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-10 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/mi-10/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-10 Search_Guide",
+      "description": "- [xiaomi Mi 10 boardview](https://www.google.com/search?q=xiaomi%20Mi%2010%20boardview)"
+    },
+    {
+      "path": "xiaomi/mi-10t/README.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-10T Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/mi-10t/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-10T Search_Guide",
+      "description": "- [xiaomi Mi 10T boardview](https://www.google.com/search?q=xiaomi%20Mi%2010T%20boardview)"
+    },
+    {
+      "path": "xiaomi/mi-11-pro/README.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-11-PRO Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/mi-11-pro/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-11-PRO Search_Guide",
+      "description": "- [xiaomi Mi 11 Pro boardview](https://www.google.com/search?q=xiaomi%20Mi%2011%20Pro%20boardview)"
+    },
+    {
+      "path": "xiaomi/mi-11-ultra/README.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-11-ULTRA Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/mi-11-ultra/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-11-ULTRA Search_Guide",
+      "description": "- [xiaomi Mi 11 Ultra boardview](https://www.google.com/search?q=xiaomi%20Mi%2011%20Ultra%20boardvie"
+    },
+    {
+      "path": "xiaomi/mi-11/README.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-11 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/mi-11/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi MI-11 Search_Guide",
+      "description": "- [xiaomi Mi 11 boardview](https://www.google.com/search?q=xiaomi%20Mi%2011%20boardview)"
+    },
+    {
+      "path": "xiaomi/poco-f4/README.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-F4 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/poco-f4/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-F4 Search_Guide",
+      "description": "- [xiaomi Poco F4 boardview](https://www.google.com/search?q=xiaomi%20Poco%20F4%20boardview)"
+    },
+    {
+      "path": "xiaomi/poco-f5/README.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-F5 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/poco-f5/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-F5 Search_Guide",
+      "description": "- [xiaomi Poco F5 boardview](https://www.google.com/search?q=xiaomi%20Poco%20F5%20boardview)"
+    },
+    {
+      "path": "xiaomi/poco-x3/README.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-X3 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/poco-x3/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-X3 Search_Guide",
+      "description": "- [xiaomi Poco X3 boardview](https://www.google.com/search?q=xiaomi%20Poco%20X3%20boardview)"
+    },
+    {
+      "path": "xiaomi/poco-x4/README.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-X4 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/poco-x4/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-X4 Search_Guide",
+      "description": "- [xiaomi Poco X4 boardview](https://www.google.com/search?q=xiaomi%20Poco%20X4%20boardview)"
+    },
+    {
+      "path": "xiaomi/poco-x5/README.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-X5 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/poco-x5/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi POCO-X5 Search_Guide",
+      "description": "- [xiaomi Poco X5 boardview](https://www.google.com/search?q=xiaomi%20Poco%20X5%20boardview)"
+    },
+    {
+      "path": "xiaomi/redmi-note-10/README.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-10 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/redmi-note-10/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-10 Search_Guide",
+      "description": "- [xiaomi Redmi Note 10 boardview](https://www.google.com/search?q=xiaomi%20Redmi%20Note%2010%20boar"
+    },
+    {
+      "path": "xiaomi/redmi-note-11/README.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-11 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/redmi-note-11/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-11 Search_Guide",
+      "description": "- [xiaomi Redmi Note 11 boardview](https://www.google.com/search?q=xiaomi%20Redmi%20Note%2011%20boar"
+    },
+    {
+      "path": "xiaomi/redmi-note-12/README.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-12 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/redmi-note-12/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-12 Search_Guide",
+      "description": "- [xiaomi Redmi Note 12 boardview](https://www.google.com/search?q=xiaomi%20Redmi%20Note%2012%20boar"
+    },
+    {
+      "path": "xiaomi/redmi-note-13/README.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-13 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/redmi-note-13/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-13 Search_Guide",
+      "description": "- [xiaomi Redmi Note 13 boardview](https://www.google.com/search?q=xiaomi%20Redmi%20Note%2013%20boar"
+    },
+    {
+      "path": "xiaomi/redmi-note-8/README.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-8 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/redmi-note-8/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-8 Search_Guide",
+      "description": "- [xiaomi Redmi Note 8 boardview](https://www.google.com/search?q=xiaomi%20Redmi%20Note%208%20boardv"
+    },
+    {
+      "path": "xiaomi/redmi-note-9/README.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-9 Readme",
+      "description": "- **Manufacturer**: xiaomi"
+    },
+    {
+      "path": "xiaomi/redmi-note-9/boardview/SEARCH_GUIDE.md",
+      "type": "markdown",
+      "index": "Xiaomi REDMI-NOTE-9 Search_Guide",
+      "description": "- [xiaomi Redmi Note 9 boardview](https://www.google.com/search?q=xiaomi%20Redmi%20Note%209%20boardv"
     }
   ],
   "solutions": [
@@ -127,9 +1621,172 @@
   ],
   "manufacturers": [
     {
+      "name": "apple",
+      "models": [
+        "iphone-13-mini",
+        "iphone-12",
+        "iphone-13",
+        "iphone-8",
+        "iphone-15-pro",
+        "iphone-15",
+        "macbook-pro-16-2019",
+        "iphone-xr",
+        "iphone-15-plus",
+        "iphone-11-pro-max",
+        "iphone-14-pro",
+        "iphone-13-pro-max",
+        "iphone-14-pro-max",
+        "iphone-xs-max",
+        "iphone-7",
+        "macbook-air-2020",
+        "macbook-pro-13-2020",
+        "iphone-11",
+        "iphone-13-pro",
+        "iphone-7-plus",
+        "iphone-12-mini",
+        "iphone-x",
+        "iphone-xs",
+        "iphone-14",
+        "iphone-14-plus",
+        "iphone-8-plus",
+        "iphone-15-pro-max",
+        "iphone-12-pro",
+        "iphone-12-pro-max",
+        "iphone-11-pro"
+      ]
+    },
+    {
+      "name": "vivo",
+      "models": [
+        "y27",
+        "x70-pro",
+        "v23",
+        "v25",
+        "x90-pro",
+        "v29",
+        "y36",
+        "v27",
+        "x80-pro",
+        "y22"
+      ]
+    },
+    {
+      "name": "scraper",
+      "models": [
+        "tests",
+        "config",
+        "src"
+      ]
+    },
+    {
+      "name": "oppo",
+      "models": [
+        "a78",
+        "find-x5-pro",
+        "a98",
+        "reno-8",
+        "reno-9",
+        "reno-7",
+        "reno-10",
+        "a58",
+        "find-x3-pro",
+        "find-x6-pro"
+      ]
+    },
+    {
       "name": "samsung",
       "models": [
-        "a310f"
+        "galaxy-s23",
+        "galaxy-note-20",
+        "galaxy-a53",
+        "galaxy-s20",
+        "galaxy-a34",
+        "galaxy-s21-ultra",
+        "galaxy-s23-plus",
+        "galaxy-a13",
+        "galaxy-a32",
+        "galaxy-s23-ultra",
+        "galaxy-a12",
+        "galaxy-s22-ultra",
+        "galaxy-s22-plus",
+        "galaxy-s22",
+        "galaxy-a52",
+        "galaxy-s21",
+        "galaxy-a10",
+        "galaxy-a31",
+        "galaxy-note-20-ultra",
+        "galaxy-a14",
+        "galaxy-s20-plus",
+        "galaxy-s20-ultra",
+        "galaxy-a54",
+        "a310f",
+        "galaxy-s21-plus",
+        "galaxy-a33",
+        "galaxy-a51"
+      ]
+    },
+    {
+      "name": "google",
+      "models": [
+        "pixel-6-pro",
+        "pixel-8",
+        "pixel-8-pro",
+        "pixel-6",
+        "pixel-4a",
+        "pixel-7-pro",
+        "pixel-5",
+        "pixel-7"
+      ]
+    },
+    {
+      "name": "huawei",
+      "models": [
+        "mate-30-pro",
+        "p30-pro",
+        "nova-11",
+        "nova-10",
+        "p40-pro",
+        "p50-pro",
+        "nova-9",
+        "mate-40-pro",
+        "p20-pro",
+        "mate-50-pro"
+      ]
+    },
+    {
+      "name": "oneplus",
+      "models": [
+        "oneplus-9-pro",
+        "nord-ce-3",
+        "nord-3",
+        "nord-2t",
+        "oneplus-11",
+        "oneplus-8t",
+        "oneplus-10-pro",
+        "oneplus-7t-pro",
+        "oneplus-8-pro"
+      ]
+    },
+    {
+      "name": "xiaomi",
+      "models": [
+        "mi-10",
+        "mi-10-pro",
+        "poco-x4",
+        "poco-x5",
+        "poco-f5",
+        "redmi-note-12",
+        "redmi-note-9",
+        "poco-f4",
+        "mi-11-ultra",
+        "redmi-note-10",
+        "redmi-note-13",
+        "mi-11-pro",
+        "mi-10t",
+        "redmi-note-8",
+        "mi-11",
+        "poco-x3",
+        "redmi-note-11"
       ]
     }
   ]
